@@ -1,0 +1,52 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+.HeaderLeft{
+    display: flex;
+    align-items: center;
+}
+.HeaderLeft>p{
+    margin-right: 20px;
+}
+.HeaderRight{
+    display: flex;
+    align-items: center;
+}
+.HeaderRight>p{
+    margin-left: 20px;
+}
+#appIcon{
+    margin-left: 20px;
+}
+#accountIcon{
+    margin-left: 20px;
+}
+#GoogleLogo{
+    font-size: 180px;
+    color: #fff;
+    font-weight: 600;
+
+}
+/* #bgImage{
+    width: 80px;
+    color: red;
+    background-color: blue;
+} */
+.Body{
+    flex:1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
