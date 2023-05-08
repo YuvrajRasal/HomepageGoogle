@@ -8,9 +8,14 @@ function Search() {
     <>
       <div className="Search">
         <div className="SearchInput">
-          <SearchIcon />
+          <span id="new">
+            <SearchIcon />
+          </span>
+
           <input />
-          <MicIcon />
+          <span id="new">
+            <MicIcon />
+          </span>
         </div>
       </div>
       ;

@@ -2,13 +2,15 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 .Header{
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
     align-items: center;
+    color: #fff;
+    font-size: 20px;
 }
 .HeaderLeft{
     display: flex;
@@ -31,16 +33,20 @@
     margin-left: 20px;
 }
 #GoogleLogo{
-    font-size: 180px;
+    font-size: 100px;
     color: #fff;
     font-weight: 600;
 
 }
-/* #bgImage{
-    width: 80px;
-    color: red;
-    background-color: blue;
-} */
+#bgImage{
+    /* width: 80px; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    object-fit: cover;
+
+}
 .Body{
     flex:1;
     display: flex;
@@ -49,4 +55,63 @@
     /* justify-content: center; */
     align-items: center;
 }
+.p{
+    color: #fff;
+}
+.innerImg{
+    width:60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 999px;
+    background-color: #fff;
+    padding:2px
+
+}
+.BigBox{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.SmallBox{
+    display:flex;
+    flex-direction: column;
+    /* background-color: #fff; */
+    margin: 20px; 
+    width: 120px;
+    height:120px;
+    justify-content: center;
+    align-items: center;
+}
+.BelowBox{
+    width:70px;
+    background-color: white;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.BelowBox:hover{
+cursor:pointer;
+}
+
+.innerImg:hover{
+    cursor:pointer;
+    }
+
+   p:hover{
+    cursor:pointer;
+    }
+
+    #accountIcon:hover{
+        cursor:pointer;
+    }
+    #appIcon:hover{
+        cursor:pointer;
+    }
+#new{
+    cursor: pointer;
+}
+
 
